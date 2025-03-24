@@ -211,7 +211,7 @@ export const process = [
 export const testimonials = [
   {
     id: 1,
-    quote: "UxCraftStudio transformed our outdated website into a conversion machine. Their research-driven approach made all the difference in understanding what our customers actually needed.",
+    quote: "CraftStudio transformed our outdated website into a conversion machine. Their research-driven approach made all the difference in understanding what our customers actually needed.",
     name: "Sarah Johnson",
     role: "Marketing Director",
     company: "TechFlow",
@@ -227,7 +227,7 @@ export const testimonials = [
   },
   {
     id: 3,
-    quote: "Working with UxCraftStudio was a game-changer for our business. They built our entire platform using no-code tools, saving us time and money while still delivering an exceptional product.",
+    quote: "Working with CraftStudio was a game-changer for our business. They built our entire platform using no-code tools, saving us time and money while still delivering an exceptional product.",
     name: "Michelle Rivera",
     role: "CEO",
     company: "EdConnect",

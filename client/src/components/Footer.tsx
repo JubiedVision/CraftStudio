@@ -75,8 +75,8 @@ export default function Footer() {
             <ul className="space-y-2">
               <li className="flex items-start">
                 <i className="fas fa-envelope text-[#0F8B8D] mt-1 mr-2"></i>
-                <a href="mailto:hello@uxcraftstudio.com" className="text-white/80 hover:text-white transition-colors">
-                  hello@uxcraftstudio.com
+                <a href="mailto:hello@craftstudio.com" className="text-white/80 hover:text-white transition-colors">
+                  hello@craftstudio.com
                 </a>
               </li>
               <li className="flex items-start">
@@ -95,7 +95,7 @@ export default function Footer() {
         
         <div className="border-t border-white/20 mt-12 pt-6 flex flex-col md:flex-row justify-between items-center">
           <p className="text-white/60 text-sm">
-            © {currentYear} UxCraftStudio. All rights reserved.
+            © {currentYear} CraftStudio. All rights reserved.
           </p>
           <div className="mt-4 md:mt-0 flex space-x-6">
             <a href="#" className="text-white/60 hover:text-white/80 text-sm transition-colors">Privacy Policy</a>

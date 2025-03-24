@@ -58,7 +58,7 @@ export default function Navbar() {
           <div className="flex items-center">
             <div className="flex-shrink-0">
               <Link href="/" className="text-[#1A2456] dark:text-white font-serif font-semibold text-2xl">
-                Ux<span className="text-[#0F8B8D]">CraftStudio</span>
+                <span className="text-[#0F8B8D]">CraftStudio</span>
               </Link>
             </div>
           </div>
