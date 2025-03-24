@@ -43,7 +43,7 @@ export default function Team() {
             <motion.div
               key={member.id}
               variants={item}
-              className="bg-[#262626] rounded-lg shadow-md overflow-hidden hover:scale-[1.01] hover:shadow-xl transform-gpu will-change-transform transition-all duration-500 ease-out"
+              className="bg-white dark:bg-[#262626] rounded-lg shadow-md overflow-hidden hover:scale-[1.01] hover:shadow-xl transform-gpu will-change-transform transition-all duration-500 ease-out"
             >
               <div className="relative overflow-hidden h-56">
                 <img 
@@ -55,18 +55,18 @@ export default function Team() {
                 <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/20 pointer-events-none"></div>
               </div>
               <div className="p-5">
-                <h3 className="font-serif font-medium text-lg text-white">{member.name}</h3>
-                <p className="text-neutral-300 text-sm">{member.role}</p>
+                <h3 className="font-serif font-medium text-lg text-neutral-800 dark:text-white">{member.name}</h3>
+                <p className="text-neutral-600 dark:text-neutral-300 text-sm">{member.role}</p>
               </div>
               <div className="p-5 pt-0">
-                <p className="text-neutral-300 text-sm mb-4">
+                <p className="text-neutral-600 dark:text-neutral-300 text-sm mb-4">
                   {member.bio}
                 </p>
-                <div className="border-t border-neutral-700 pt-4 mt-3">
-                  <h4 className="font-medium text-white text-sm mb-2">Expertise</h4>
+                <div className="border-t border-neutral-200 dark:border-neutral-700 pt-4 mt-3">
+                  <h4 className="font-medium text-neutral-800 dark:text-white text-sm mb-2">Expertise</h4>
                   <div className="flex flex-wrap gap-1.5">
                     {member.expertise.map((skill, index) => (
-                      <span key={index} className="bg-[#0F8B8D]/20 text-[#4ce2e5] text-xs px-2.5 py-0.5 rounded-full">
+                      <span key={index} className="bg-[#0F8B8D]/10 dark:bg-[#0F8B8D]/20 text-[#0F8B8D] dark:text-[#4ce2e5] text-xs px-2.5 py-0.5 rounded-full">
                         {skill}
                       </span>
                     ))}
@@ -79,7 +79,7 @@ export default function Team() {
                       href={platform.url} 
                       target="_blank" 
                       rel="noopener noreferrer"
-                      className="text-neutral-400 hover:text-white transition-colors"
+                      className="text-neutral-500 dark:text-neutral-400 hover:text-neutral-700 dark:hover:text-white transition-colors"
                     >
                       <i className={`${platform.icon} text-lg`}></i>
                     </a>
