@@ -1,0 +1,96 @@
+Enhanced UX Centered Website Brief
+Company Overview
+UX Centered is a boutique digital agency specializing in user-centered design solutions including app design, UX research, website design, and no-code web development services. As a nimble two-person team, they deliver personalized attention with expert execution for clients seeking high-quality digital experiences.
+Core Features & Structure
+
+Hero Section - Impactful first impression with a concise value proposition, subtle animation, and call-to-action button
+Services Showcase - Interactive grid layout featuring their four core services:
+
+App Design (Mobile & Desktop)
+UX Research & User Testing
+Website Design & Strategy
+No-Code Development Solutions
+
+
+Team Section - Humanizing the agency with professional profiles highlighting individual expertise, approach, and complementary skills
+Portfolio Gallery - Case study showcase with:
+
+Filterable project categories
+Before/after comparisons
+Process insights
+Client testimonials
+Measurable results
+
+
+Process Overview - Visual timeline showing their collaborative workflow from discovery to delivery
+Contact System - Multi-option engagement points:
+
+Smart contact form with project scoping questions
+Calendar integration for consultation booking
+Response time expectations
+FAQ section addressing common client questions
+
+
+
+Technical Specifications
+Frontend Architecture
+
+Framework: Next.js 14 with React Server Components for optimal performance
+Styling: Tailwind CSS with custom design system
+Animation: Framer Motion for subtle UI interactions
+State Management: React Context API for lightweight state needs
+
+Development Approach
+
+Rendering Strategy: Hybrid rendering combining static generation and server components
+Image Handling: Next/Image with responsive art direction and WebP format
+Interaction Design: Keyboard accessible navigation and screen reader support
+Performance Budget: Core Web Vitals optimization (LCP < 2.5s, FID < 100ms, CLS < 0.1)
+
+Progressive Enhancements
+
+Micro-interactions: Subtle feedback animations on user actions
+Dark Mode: System preference detection with toggle option
+Motion Reduction: Respects user preferences for reduced motion
+Offline Capability: Service worker for core content availability
+
+Visual Design System
+Typography System
+
+Headings: Variable font "Newsreader" (serif) for sophisticated headings
+Body: "Inter" (sans-serif) for clear readability
+Type Scale: Fluid typography using clamp() for responsive sizing
+Hierarchy: Clear content structure through weight, size, and spacing
+
+Color Palette
+
+Primary: #1A2456 (Deep indigo) - Conveys expertise and professionalism
+Secondary: #0F8B8D (Teal) - Represents creativity and innovation
+Accent: #EC4E20 (Vibrant coral) - Strategic highlights and calls-to-action
+Neutrals: System of grays from #F8F9FA to #212529
+Background: Off-white (#FAFAFA) with subtle texture
+Dark Mode Palette: Inverted with adjusted contrast ratios
+
+Visual Language
+
+Grid System: 12-column layout with 1440px max-width container
+Spacing: 8px base unit with geometric progression (8, 16, 24, 40, 64, 104px)
+Imagery: Custom illustrations of digital processes with consistent style
+Components: Reusable UI kit with consistent interaction patterns
+Borders & Shadows: Subtle elevation system with consistent light direction
+
+Motion Design
+
+Timing: 300-500ms transitions with ease-out curves
+Purpose: Functional animations that guide user attention
+Consistency: Standardized entrance/exit patterns across components
+
+Inspirational References
+
+Information Architecture: Stripe's clarity in presenting complex services
+Typography: Figma's balance of readability and personality
+Interaction: Framer's subtle yet informative micro-animations
+Case Studies: Pentagram's storytelling through visual progression
+Content Strategy: AirBnb's balance of visuals and explanatory text
+
+This enhanced brief provides comprehensive direction for creating a website that not only looks professional but leverages modern web technologies to deliver an exceptional user experience that authentically represents UX Centered's expertise and approach.
