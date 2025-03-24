@@ -43,11 +43,14 @@ export default function Contact() {
       // Get the form element
       const form = e.target as HTMLFormElement;
       
+      // Create proper form data for Netlify
+      const formData = new FormData(form);
+      
       // Let Netlify handle the form submission
       fetch("/", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: new URLSearchParams(new FormData(form) as any).toString()
+        body: new URLSearchParams(formData as any).toString()
       })
       .then(() => {
         // Reset form and show success message
@@ -115,6 +118,7 @@ export default function Contact() {
               <form 
                 name="contact" 
                 method="POST" 
+                netlify="true"
                 data-netlify="true" 
                 netlify-honeypot="bot-field"
                 onSubmit={handleSubmit}
